@@ -34,6 +34,8 @@ Run checks:
 ```bash
 python test_solution.py
 ```
+The current test suite reports:
+All tests passed.
 
 ## Method
 1. Build route names as `origin-destination`.
@@ -58,11 +60,5 @@ python test_solution.py
 - The history baseline uses the last eight prior route-weeks that have shipment data. Weeks with no shipments have no weekly cost and are not fabricated or filled in.
 - `sample_output_format_v2.csv` contains unescaped commas in one example reason, so some CSV parsers reject its sample rows. The output uses the eight columns from its header and writes valid CSV quoting.
 
-## Suggested 10-minute walkthrough
-1. Explain the input files and route/week grouping.
-2. Demonstrate the weighted cost-per-tonne-km formula.
-3. Show own-history and peer comparisons.
-4. Show one justified example (`N002` or `N001`) and one unexplained flag.
-5. Explain why unsupported notes are not used as evidence.
-6. Show the three-run reproducibility check and the no-LLM cost log.
-7. Discuss thresholds and the next step: adding retrieval/RAG with citations to exact notes.
+## Author
+Developed as a shipping cost anomaly detection project using Python and pandas.
