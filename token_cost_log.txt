@@ -1,0 +1,13 @@
+Token and Cost Log — one full run
+
+Implementation: deterministic pandas + Python note matching
+Shipment records read: 2,940
+Context notes read: 10
+Route-week aggregates calculated: 728
+Output anomaly rows: 28
+External LLM calls: 0
+Input tokens: 0
+Output tokens: 0
+Estimated LLM API cost: USD 0.00 (no LLM was called)
+
+Note: This is the LLM token/cost log for the delivered baseline, not a measurement of CPU/runtime or hosting costs. The AI/RAG bonus is not implemented in this version.

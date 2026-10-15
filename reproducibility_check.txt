@@ -1,0 +1,6 @@
+Three runs on the same input files produced byte-identical output CSV files.
+Run 1 SHA-256: 87d39e97d663dc22d041fa887881b20e9b12388ce7d020018686551f2e0ee753
+Run 2 SHA-256: 87d39e97d663dc22d041fa887881b20e9b12388ce7d020018686551f2e0ee753
+Run 3 SHA-256: 87d39e97d663dc22d041fa887881b20e9b12388ce7d020018686551f2e0ee753
+Result: PASS — all three hashes match.
+Validation: test_solution.py passes, including a guard that prevents nationwide note N003 from justifying a route-specific outlier.
